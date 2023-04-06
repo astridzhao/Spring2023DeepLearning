@@ -1,0 +1,18 @@
+training, validation, test split
+shuffling
+
+input: standardization/normalization
+
+output: 
+  one-hot encodings for categorical variables: tensorflow. ... .to_categorical
+  from one hot ro desne: np.argmax(...,1)
+
+activation functions: 
+  for symmetric: sigmond, tanh. 
+  for asymmetric: relu, selu...
+
+regularizaion: L1 and L2, dropout, batchnorm, early stopping 
+
+Loss functions with activation functions: !!! important （i took a picture) 
+
+Classfication: binary, multi-class, multi label ....
